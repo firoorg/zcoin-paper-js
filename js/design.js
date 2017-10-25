@@ -51,7 +51,7 @@ function getParameterByName(name) {
 }
 
 var myDesign = getParameterByName('design');
-window.suppliesURL = 'https://bitcoinpaperwallet.com/?p=' + myDesign + '#purchase';
+window.suppliesURL = 'https://zcoinpaperwallet.com/?p=' + myDesign + '#purchase';
 
 switch (myDesign) {
     case 'alt-litecoin':
@@ -68,5 +68,5 @@ switch (myDesign) {
         break;
     default:
         setCryptoCurrency('ZCoin');
-        window.suppliesURL = 'https://bitcoinpaperwallet.com/#purchase'; // remove special currency flag
+        window.suppliesURL = 'https://zcoinpaperwallet.com/#purchase'; // remove special currency flag
 }
