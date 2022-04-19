@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Zcoin Paper Wallet Generator</title>
+		<title>Firo Paper Wallet Generator</title>
 		<!--
 			index.html (from https://bitcoinpaperwallet.com)
 			
@@ -120,10 +120,10 @@
 					&nbsp;
 				</div>
 				<div id="tagline">
-					Open Source JavaScript <script type="application/javascript" type="text/javascript">document.write(window.currencyName);</script> Paper Wallet Generator <span>Updated Jul 11, 2017</span>
+					Open Source JavaScript <script type="application/javascript" type="text/javascript">document.write(window.currencyName);</script> Paper Wallet Generator <span>Updated Apr 19, 2022</span>
 				</div>
 				<div id="tagsite">
-					See also our <a href="https://explorer.zcoin.io/">Zcoin Block Explorer</a>
+					See also our <a href="https://explorer.firo.org/">Firo Block Explorer</a>
 				</div>
 				<div id="tagwarning"></div>
 				<div id="seedpoolarea"><textarea rows="16" cols="62" id="seedpool"></textarea></div>
@@ -207,13 +207,13 @@
 									</li>
 									<li><strong>?</strong> Are you using a secure operating system installation guaranteed to be free of spyware and viruses, for example, an <a href="#" onClick="window.open('https://bitcoinpaperwallet.com/ubuntu-linux-live-bootable-cd/', '_blank'); return false;">Ubuntu LiveCD?</a></li>
 								</ul>
-								<p><a href="http://zcoinpaperwallet.com/#security" target="_blank">More security tips and answers to frequently asked questions &raquo;</a></p>
+								<p><a href="http://firopaperwallet.com/#security" target="_blank">More security tips and answers to frequently asked questions &raquo;</a></p>
 							</div>
 							<span id="instructions2">
 								<p style="margin-top: 0;">
 									<strong>Change your wallet's design, language, or cryptocurrency here:</strong>
 									<select name="designPicker" id="designPicker" style="font-size: 12px;" onChange="setDesign(this.value, false);">
-										<option value="zcoin">Standard Zcoin Design</option>
+										<option value="firo">Standard Firo Design</option>
 										<option value="default">Standard Bitcoin Design</option>
 										<option value="blackwhite">Black &amp; White Bitcoin</option>
 										<option value="holiday">Holiday / Christmas Bitcoin (English)</option>
@@ -227,7 +227,7 @@
 										<option value="counterparty">Counterparty XCP</option>
 										<option value="alt-testnet">"Testnet"</option>
 									</select>
-									<select name="langPicker" id="langPicker" style="font-size: 12px; display: inline;" onChange="setDesign('zcoin', false, this.value);">
+									<select name="langPicker" id="langPicker" style="font-size: 12px; display: inline;" onChange="setDesign('firo', false, this.value);">
 										<option value="english">English</option>
 										<option value="chinese">Chinese</option>
 										<option value="traditional-chinese">Chinese (Traditional)</option>
@@ -252,7 +252,7 @@
 							<br>
 							<br>
 							<span id="instructions3"><strong>Step 2: Print Front</strong><br>
-							Next you will print out the front side of your wallet. The public address and private key will be random-generated, <em>or</em> you can supply your own key by rolling dice, shuffling cards, etc. You may also duplicate an existing paper wallet or provide a "vanity" address if you have one. Tip: If you are printing several wallets, it's possible to <a href="https://zcoinpaperwallet.com/printing-and-paper-tips/" target="_blank">print two per page</a>.</span> <br>
+							Next you will print out the front side of your wallet. The public address and private key will be random-generated, <em>or</em> you can supply your own key by rolling dice, shuffling cards, etc. You may also duplicate an existing paper wallet or provide a "vanity" address if you have one. Tip: If you are printing several wallets, it's possible to <a href="https://firopaperwallet.com/printing-and-paper-tips/" target="_blank">print two per page</a>.</span> <br>
 							<br>
 							<span id="instructions4"><strong>Step 3: Print Back</strong><br>
 							Flip the front page over and put it back in your printer. This isn't just for good looks! The reverse design includes important tamper-resistant safeguards.</span> <br>
@@ -274,7 +274,7 @@
 								(1) Your printed ruler is horizontally centered on the page, leaving equal margins on the left and right sides of the page. (INCREASE the horizontal shift to push the ruler to the right.)<br />
 								(2) Your printed ruler is approximately the same size as a real ruler. Smaller by up to 1 inch is fine. (REDUCE the zoom to increase the ruler size.) <br /><br />
 								<br />
-								What settings worked best for you? <a href="https://zcoinpaperwallet.com/feedback/" target="_blank">Feedback form &raquo;</a>
+								What settings worked best for you? <a href="https://firopaperwallet.com/feedback/" target="_blank">Feedback form &raquo;</a>
 							</p>
 							<span class="print">
 							<a href="#" class="nicerButton" onClick="doPrint('calibration');">Print Calibration Test</a>
@@ -656,13 +656,13 @@
 					<div>
 						<span class="item" id="footerlabeldonations"><b>Donations keep this service open &amp; free!</b></span>
 						<span class="item" style="font-size: 11px; font-family: 'Courier New', Courier, monospace;">
-						<strong>Zcoin</strong>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aAqf1MAqn8GSCdLiyLvvk51cBfVYUzanHW<br />
-						<span class="item" style="font-size: 11px;">Contributions are shared by the <a href="https://bitcoinpaperwallet.com/#thanks" target="_blank">developers</a>, including zcoin developer @sn.</span>
+						<strong>Firo</strong>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aKFzcjs8Gyy5PZW5BRddFFUQEPyPcZC8LN<br />
+						<span class="item" style="font-size: 11px;">Contributions are shared by the <a href="https://github.com/firoorg/zcoin-paper-js/" target="_blank">developers</a>, including firo developer @sn.</span>
 					</div>
 				</div>
 				<div class="authorpgp">
 					<div id="siginfo" style="display: none; position: absolute; top: -300px;">
-						After downloading and extracting the <a href="https://github.com/zcoinofficial/zcoin-paper-js/archive/master.zip" target="_blank">ZIP package</a> for this generator, you should find a file named <b>index.html.sig</b>
+						After downloading and extracting the <a href="https://github.com/firoofficial/firo-paper-js/archive/master.zip" target="_blank">ZIP package</a> for this generator, you should find a file named <b>index.html.sig</b>
 						which you can use to:
 						<ol>
 							<li> verify that <strong>index.html</strong> hasn't been tampered with, and</li>
@@ -680,8 +680,8 @@
 						<a href="#" class="nicerButton" onClick="document.getElementById('siginfo').style.display='none'; return(false);">OK</a>
 					</div>
 					<span class="item"><b>Security &amp; signatures</b></span>
-					<span class="item" style="font-size: 90%;">For <a href="http://zcoinpaperwallet.com/#security" target="_blank">secure wallet generation</a>, do not print wallets "live" from zcoinpaperwallet.com.<br />Instead, download this generator from GitHub and run the HTML as a "local" file:</span>
-					<span class="item"><a href="https://github.com/zcoinofficial/zcoin-paper-js" target="_blank" id="footerlabelgithub"><strong>Secure Download</strong> (GitHub ZIP file)</a></span>
+					<span class="item" style="font-size: 90%;">For <a href="http://firopaperwallet.com/#security" target="_blank">secure wallet generation</a>, do not print wallets "live" from firopaperwallet.com.<br />Instead, download this generator from GitHub and run the HTML as a "local" file:</span>
+					<span class="item"><a href="https://github.com/firoofficial/firo-paper-js" target="_blank" id="footerlabelgithub"><strong>Secure Download</strong> (GitHub ZIP file)</a></span>
 					<span class="item" id="footerlabelsig" style="font-size: 90%;"><a href="#" onClick="document.getElementById('siginfo').style.display='block'; return(false);">Validate PGP/GPG signature</a></span>
 					<span class="item" id="footerlabeltests" style="font-size: 90%;">Run unit tests: <a href="?unittests=1#tests">basic</a> | <a href="?asyncunittests=1#tests">async</a></span>
 				</div>

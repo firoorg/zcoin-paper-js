@@ -29,16 +29,16 @@ function setCryptoCurrency(toThis) {
             window.compressedWIFPrefix = 'c';
             document.title = 'Bitcoin TESTNET paper wallet generator';
             break;
-        case 'ZCoin':
+        case 'Firo':
             window.networkVersion = 0x52;
             window.privateKeyPrefix = 0x52 + 128;
             window.WIFPrefix = 'X'; // TODO: Unknown
             window.compressedWIFPrefix = '[LK]'; // TODO: Unknown
-            document.title = 'ZCoin paper wallet generator';
+            document.title = 'Firo paper wallet generator';
             break;
         default:
-            alert('Invalid cryptocurrency "' + toThis + '" at initialization. Defaulting to ZCoin.');
-            setCryptoCurrency('ZCoin');
+            alert('Invalid cryptocurrency "' + toThis + '" at initialization. Defaulting to Firo.');
+            setCryptoCurrency('Firo');
     } // eof switch
     return (true);
 }
@@ -51,7 +51,7 @@ function getParameterByName(name) {
 }
 
 var myDesign = getParameterByName('design');
-window.suppliesURL = 'https://zcoinpaperwallet.com/?p=' + myDesign + '#purchase';
+window.suppliesURL = 'https://firopaperwallet.com/?p=' + myDesign + '#purchase';
 
 switch (myDesign) {
     case 'alt-litecoin':
@@ -63,10 +63,10 @@ switch (myDesign) {
     case 'alt-testnet':
         setCryptoCurrency('Testnet');
         break;
-    case 'zcoin':
-        setCryptoCurrency('ZCoin');
+    case 'firo':
+        setCryptoCurrency('Firo');
         break;
     default:
-        setCryptoCurrency('ZCoin');
-        window.suppliesURL = 'https://zcoinpaperwallet.com/#purchase'; // remove special currency flag
+        setCryptoCurrency('Firo');
+        window.suppliesURL = 'https://firopaperwallet.com/#purchase'; // remove special currency flag
 }
