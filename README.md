@@ -1,9 +1,9 @@
-# zcoin-paper-js
-Paper wallet generator for zcoin
+# firo-paper-js
+Paper wallet generator for firo
 
-Forked from https://github.com/cantonbecker/bitcoinpaperwallet and modified for Zcoin use.
+Forked from https://github.com/cantonbecker/bitcoinpaperwallet and modified for Firo use.
 
-Although we host a web version of it on http://zcoinpaperwallet.com we do recommend running it locally instead for those who have the technical know how.
+Although we host a web version of it on http://firopaperwallet.com we do recommend running it locally instead for those who have the technical know how.
 
 *** HOW TO USE THIS GENERATOR ***
 
