@@ -64,13 +64,15 @@
     padding: 3px 0;
 }
 body {
-    margin-top: 0;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
     font-family: Arial;
-    background-image: url(../images/webpage-background.png);
     background-repeat: repeat-y;
     background-position: center;
-    background-color: #333333;
-    font-size: 14px;
+    background-color: #FFFFFF;
+    font-size: 20px;
 }
 h1 {
     font-size: 24px;
@@ -96,9 +98,9 @@ a:hover {
     left: 0;
     margin: 0;
     padding: 25px 55px;
-    width: 901px;
+    width: 1700px;
     text-align: left;
-    -webkit-box-shadow: #B3B3B3 1px 0px 1px;
+    -webkit-box-shadow: #b3b3b3 1px 0px 1px;
     -moz-box-shadow: #B3B3B3 1px 0px 1px;
     box-shadow: #B3B3B3 1px 0px 1px;
 }
@@ -111,7 +113,7 @@ a:hover {
     line-height: 24px;
 }
 #generate input {
-    font-size: 10px;
+    font-size: 15px;
 }
 #papergenerate1 {
     font-weight: bold;
@@ -134,7 +136,7 @@ a:hover {
 }
 #seedpooldisplay {
     font-family: monospace;
-    font-size: 12px;
+    font-size: 15px;
     width: 680px;
     padding: 0 0 0 0;
     word-wrap: break-word;
@@ -142,7 +144,7 @@ a:hover {
     line-height: 16px;
 }
 #seedSkipper {
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
     line-height: 14px;
 }
@@ -151,8 +153,8 @@ a:hover {
     height: 12px;
     display: block;
     border-radius: 6px;
-    background-color: #EAFEC8;
-    border: 1px solid #EEEEEE;
+    background-color: #2d7df5 !important;
+    border: 1px solid #2d7df5;
     position: absolute;
     z-index: -10;
 }
@@ -190,7 +192,7 @@ a:hover {
 #main {
     position: relative;
     margin: 0px auto;
-    width: 1010px;
+    width: 1800px;
     color: #444;
 }
 /* removed text-align: center; */
@@ -203,7 +205,8 @@ a:hover {
 #menu {
     visibility: hidden;
     font-size: 90%;
-    padding: 0 12px;
+    padding: 0 0px;
+    margin-top: 50px;
 }
 #culturemenu {
     text-align: right;
@@ -226,7 +229,7 @@ a:hover {
     width: 1010px;
     height: 331px;
     border: 0;
-    margin: 0;
+    margin-left: 440px;
     padding: 0;
     left: 0;
 }
@@ -252,7 +255,7 @@ a:hover {
 }
 #printeradjust {
     color: #060;
-    font-size: 12px;
+    font-size: 15px;
 }
 #printeradjust span {
     background-color: #e2f9bd;
@@ -260,10 +263,10 @@ a:hover {
     border: 1px solid #009900;
     font-family: "Courier New", Courier, monospace;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 15px;
 }
 #printeradjust a:hover span {
-    background-color: #CCFFCC;
+    background-color: #2b60f1;
 }
 #printeradjust a,
 #printeradjust a:hover {
@@ -298,8 +301,8 @@ a:hover {
     font-size: 13px;
 }
 #paperarea .artwallet .papersvg {
-    width: 1010px;
-    height: 331px;
+    width: 1040px;
+    height: 340px;
     border: 0;
     margin: 0;
     padding: 0;
@@ -631,8 +634,8 @@ a:hover {
     padding: 0 25px;
 }
 .instructionsarea {
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 17px;
+    line-height: 23px;
 }
 .instructionsarea li {
     padding-bottom: 8px;
@@ -708,7 +711,9 @@ a:hover {
     display: block;
 }
 input {
-    font-size: 12px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 /* IE8 */
 
@@ -875,8 +880,8 @@ blink {
 }
 #paperadvancedcommands {
     float: left;
-    font-size: 12px;
-    margin-left: 10px;
+    font-size: 15px;
+    margin-left: 15px;
     padding: 4px;
     border: 1px dotted #CCC;
 }
@@ -899,9 +904,9 @@ blink {
 }
 @media screen {
     #tagline {
-        margin: 10px 0 0 310px;
+        margin: -20px 0px 12px 400px;
         font-style: italic;
-        font-size: 18px;
+        font-size: 20px;
         color: #666;
     }
     #tagline span {
@@ -910,8 +915,8 @@ blink {
         color: #999;
     }
     #tagsite {
-        margin: 5px 0 20px 310px;
-        font-size: 14px;
+        margin: 0px 0px 10px 400px;
+        font-size: 18px;
         color: #666;
     }
     #tagwarning {
@@ -925,8 +930,8 @@ blink {
         text-align: left;
     }
     .menu .tab {
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
         display: inline-block;
         background-color: #e2f9bd;
         color: #060;
@@ -941,6 +946,7 @@ blink {
         top: 2px;
         z-index: 110;
         cursor: pointer;
+        font-size: 15px;
     }
     .menu .tab:hover {
         color: #090;
@@ -950,6 +956,7 @@ blink {
         border-bottom: 4px solid #FFF;
         cursor: default;
         font-weight: bold;
+        font-size:20px;
     }
     .menu .tab.selected:hover {
         color: #090;
@@ -984,9 +991,9 @@ blink {
         cursor: pointer;
     }
     .commands p.instructions {
-        width: 650px;
+        width: 1500px;
         float: left;
-        font-size: 13px;
+        font-size: 15px;
     }
     #detailcommands {
         padding: 10px 0;
